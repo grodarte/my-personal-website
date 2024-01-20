@@ -1,0 +1,57 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0
+}
+
+main {
+    text-align:center;
+}
+
+#my-header {
+    background: black;
+    align-content:center;
+    display:flex;
+    justify-content: space-between;
+}
+
+  
+  .siteNav ul li, .socials ul li {
+    color: rgb(66, 111, 179);
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding:0 10px;
+    /* padding with two values is 1. top/bottom 2. left/right */
+  }
+
+main > section {
+    padding: 100px;
+}
+
+#introduction {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+  #my-name {
+    color: rgb(66, 111, 179);
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  #skills ul {
+    text-align:center;
+    display: inline-flex;
+    list-style:none;
+  }
+
+  #skills ul li {
+    padding: 80px;
+  }
+
