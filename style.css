@@ -19,7 +19,7 @@ main {
 
   
   .siteNav ul li, .socials ul li {
-    color: rgb(66, 111, 179);
+    color: rgb(81, 125, 191);
     display: inline-block; 
     height: center;
     line-height: center; 
@@ -53,9 +53,13 @@ h2 {
     text-align:center;
     display: inline-flex;
     list-style:none;
+    color: rgb(81, 125, 191);
   }
 
-  #skills ul li {
-    padding: 50px;
+  #skills ul > li {
+    padding: 10px;
+    border-color: black;
+    margin-right: 30px;
+    border-radius: 10%;
   }
 
